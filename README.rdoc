@@ -1,0 +1,38 @@
+= Доступ к полю "Назначена" (модуль для Redmine)
+
+Добавляет permission "Правка поля "Назначена"" для ограничения изменения поля "Назначена" во время правки задач.
+
+PS. Специально для Кости и сослуживцев из "Вымпела"
+
+= Assigned To Permission (Redmine plugin)
+
+Add permission "Edit assigned_to" for edit permission field assigned_to during editing issues.
+
+== Installation
+
+=== Redmine 1.4
+
+  cd vendor/plugins
+  git clone git://github.com/rubynovich/redmine_assigned_to_permission.git
+
+== Redmine 2.x
+
+  cd plugins
+  git clone git://github.com/rubynovich/redmine_assigned_to_permission.git
+
+== Update
+
+=== Redmine 1.4
+
+  cd vendor/plugins/redmine_assigned_to_permission
+  git pull
+
+=== Redmine 2.x
+
+  cd plugins/redmine_assigned_to_permission
+  git pull
+
+== Delete
+
+  cd plugins
+  rm -rf redmine_assigned_to_permission

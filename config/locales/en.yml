@@ -1,0 +1,10 @@
+# English strings go here for Rails i18n
+en:
+  permission_edit_assigned_to: "Edit assigned_to"
+  activerecord:
+    errors:
+      models:
+        issue:
+          attributes:
+            assigned_to:
+              no_permission: "no permission for your role"

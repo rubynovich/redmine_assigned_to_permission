@@ -1,0 +1,10 @@
+# Russian strings go here for Rails i18n
+ru:
+  permission_edit_assigned_to: "Правка поля 'Назначена'"
+  activerecord:
+    errors:
+      models:
+        issue:
+          attributes:
+            assigned_to:
+              no_permission: "не доступен для изменения с вашими правами"
