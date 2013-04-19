@@ -7,6 +7,10 @@ Redmine::Plugin.register :redmine_assigned_to_permission do
   version '0.0.1'
   url 'https://github.com/rubynovich/redmine_assigned_to_permission'
   author_url 'http://roman.shipiev.me'
+
+  project_module :issue_tracking do
+    permission :edit_assigned_to, {}
+  end
 end
 
 if Rails::VERSION::MAJOR < 3
