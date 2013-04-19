@@ -12,11 +12,6 @@ module AssignedToPermissionPlugin
           :if => lambda{ |o|
             !User.current.admin? && !User.current.allowed_to?(:edit_assigned_to, o.project)
           }
-
-        safe_attributes 'assigned_to_id',
-          :if => lambda {|issue, user|
-            user.admin? || user.allowed_to?(:edit_assigned_to, issue.project)
-          }
       end
     end
 
